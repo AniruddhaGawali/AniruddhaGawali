@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  transition: all 1s ease-out;
+  color: var(--text_color);
+}
+
+:root {
+  --fira: "Fira Sans", sans-serif;
+  --fira2: "Fira Sans Condensed", sans-serif;
+  --maincolor: #5948c7;
+  --maincolor2: orangered;
+  --text_color: black;
+  --text_color2: white;
+  --nav_color:white;
+  --scroll-color:rgb(155, 155, 155);
+}
+
+a {
+  color: var(--maincolor);
+  position: relative;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+  padding-bottom: 3px;
+}
+
+a:hover {
+  color: var(--maincolor2);
+  right: 0;
+  text-decoration: none;
+}
+
+a:hover:after {
+  border-color: var(--maincolor2);
+  right: 0;
+}
+
+a:after {
+  border-radius: 1em;
+  border-top: 0.1em solid var(--maincolor);
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: 0.14em;
+  left: 0;
+  transition: right 0.5s cubic-bezier(0, 0.5, 0, 1), border-color 0.4s ease-out;
+}
+
+a:hover:after {
+  right: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 96.5%;
+  background:var(--nav_color);
+}
+
+.btn{
+  background: transparent;
+  border: 3px solid var(--maincolor);
+  font-family: var(--fira);
+  font-size: 20px;
+  color: var(--maincolor);
+  padding: 8px;
+  border-radius: 100px;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover{
+  color: var(--maincolor2);
+  border: 3px solid var(--maincolor2);
+  margin-bottom: 5px;
+  
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.max-width{
+  max-width: 80%;
+}
+
+ul li::before {
+  content: "\2022";
+  color: var(--maincolor2);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.fa{
+  font-size: 25px;
+  margin:20px 6px;
+  color: var(--text_color);
+}
+.fa-facebook{
+  color: #3B5998;
+}
+.fa-instagram{
+  color: #c333af;
+}
+.fa-twitter{
+  color: skyblue;
+}
+.fa-facebook:hover{
+  text-shadow: 0 0 5px  #3B5998;
+}
+.fa-instagram:hover{
+  text-shadow: 0 0 5px #c333af;
+}
+.fa-twitter:hover{
+  text-shadow: 0 0 5px skyblue;
+}
+.fa-github:hover{
+  text-shadow: 0 0 5px #fff;
+
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--scroll-color);
+  border-radius: 20px;
+  margin: 3px 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--maincolor); 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--maincolor2); 
+}
+
+footer{
+  font-family: var(--fira2);
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  font-size: 1em;
+  background: var(--maincolor);
+  display: flex; 
+}

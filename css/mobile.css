@@ -1,0 +1,98 @@
+@media screen and (max-width: 740px) {
+  body {
+    text-align: center;
+  }
+  nav {
+    flex-direction: column;
+    padding: 0;
+  }
+  nav h1 {
+    display: block;
+  }
+  .nav-menu {
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0;
+    display: none;
+  }
+  .menu {
+    margin: 10px 0;
+    font-family: var(--fira2);
+  }
+  #menubtn {
+    display: block;
+    width: 50px;
+    margin: 10px 0;
+  }
+  .resume {
+    margin: 20px 0;
+  }
+  .about{
+    text-align: center;
+  }
+  .about-more {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-more section {
+    margin: 20px 0;
+  }
+  .right img {
+    width: 60vw;
+  }
+  #name {
+    font-size: 4.3em;
+    text-align: center;
+    /* color: var(--maincolor); */
+  }
+  .pro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    width: 90%;
+    margin: 20px 0;
+  }
+  .sticky {
+    position:relative;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .head{
+    justify-content: center;
+  }
+  .timeline{
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    height:65vh;
+  }
+  .info p{
+    margin: 20px 0px;
+  }
+  .info{
+    overflow: auto;
+    height: 50vh;
+    padding: 10px 0;
+
+  }
+  .date{
+    display: flex;
+    overflow: auto;
+    width:90% ;
+  }
+  footer{
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #name {
+    font-size: 3em;
+
+  }
+
+}

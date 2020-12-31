@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/utili.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <title>Aniruddha Gawali | AKG</title>
+  </head>
+  <body>
+    <nav class="navigation" id="navbar">
+      <div class="logo">
+        <img src="./img/logo2.png" alt="" />
+      </div>
+      <h1>Menu</h1>
+      <div class="nav-menu" id="nav">
+        <a href="#about-me" class="menu">About</a>
+        <a href="#timeline" class="menu">Timeline</a>
+        <a href="#project" class="menu">Projects</a>
+        <a href="#learn" class="menu">Learn</a>
+        <a href="#" class="menu">Contact</a>
+        <div class="resume">
+          <img
+            src="https://i.ibb.co/zrK9B08/theme-d.png"
+            alt="theme"
+            onclick="theme()"
+            id="theme"
+          />
+          <!-- <div><button class="btn">Resuma</button></div> -->
+        </div>
+      </div>
+      <img
+        src="https://i.ibb.co/cyfzHDW/imageonline-co-invertedimage.png"
+        alt="menu-on"
+        onclick="menu()"
+        id="menubtn"
+      />
+    </nav>
+
+    <section class="about max-width m-auto">
+      <h5 id="greet">Hello visiters! , I am</h5>
+      <h1 id="name">Aniruddha Gawali</h1>
+      <h3>Student | Coder</h3>
+      <div onclick="window.open('https://www.facebook.com/aniruddha.gawali.14')" class="fa fa-facebook"></div>
+      <div onclick="window.open('https://www.instagram.com/aniruddha.gawali/')" class="fa fa-instagram"></div>
+      <div onclick="window.open('https://twitter.com/')" class="fa fa-twitter"></div>
+      <div onclick="window.open('https://github.com/AniruddhaGawali')" class="fa fa-github"></div>
+      <br>
+      <button class="btn" style="padding: 14px; margin-bottom: 0px;">Get in Touch</button>
+    </section>
+
+    <div class="max-width m-auto" style="  margin-top: 15.5vw;">
+      <h1 class="head" id="about-me">About me</h1>
+      <br>
+    <section class="about-more" >
+      <section class="left">
+        <div >
+        </div>
+        <br />
+        <!-- style="color: var(--maincolor);" -->
+        <p>Hello I am Aniruddha Gawali (AKG),</p>
+        <br />
+        <p>
+          This is my personal website/portfolio. I am from India and I love
+          coding and Computers This is my github. I have creates lots of project
+          you can explore them on my website. My favorite language is python so
+          I have made lots of of projects on it like AI, Tkinter application and
+          many moreAll this stuff are been self learned by me, from youtube,internet and
+          practice.
+        </p>
+        <br />
+        <p style="align-items: center;">
+          The language I learn:
+          <br><br>
+          <ul style=" list-style: inside; list-style-type: none; display: grid; grid-template-columns: repeat(2, minmax(140px, 200px));">
+            <li>Python</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Js</li>
+            <li>Github</li>
+  
+          </ul>
+        </p>
+      </section>
+      <section class="right">
+        <img src="./img/profile.png" alt="profile pic">
+      </section>
+    </section>
+  </div>
+
+    <div style=" margin-top: 18vw;" class=" m-auto m-">
+    <h1 class="head">My Timeline</h1>
+    <br>
+    <section class="timeline m-auto" id="timeline">
+      <section class="date">
+      <h1 id='1' onclick="display_on('2003','1')">May 2003</h1>
+      <h1 id='2' onclick=" display_on('2017','2') ">Feb 2017</h1>
+      <h1 id='3' onclick=" display_on('2019','3')">Apr 2019</h1>
+      <h1 id='4' onclick=" display_on('feb2020','4')">Feb 2020</h1>
+      <h1 id='5' onclick=" display_on('mar2020','5')">Mar 2020</h1>
+      <h1 id='6' onclick=" display_on('sept2020','6')">Sept 2020</h1>
+      </section>
+      <section class="info">
+        <div id='2003' >
+          <h2>Hello World !</h2>
+          <h3>May 25 2003</h3>
+          <br>
+          <p>Gemini, born in India 👶
+          </p>
+        </div>
+        <div id="2017">
+          <h2>Start Learning Hacking</h2>
+          <h3>February 2017</h3>
+          <br>
+          <p>
+            Start getting knowledge about Hacking and Cyber-security from youtube, from here get intrested in technology and coding and computers world.
+          </p>
+        </div>
+        <div id="2019">
+          <h2>Learn Ethical Hacking</h2>
+          <h3>April 2019</h3>
+          <br>
+          <p>Learn Basics of ethical hacking and enter into the new technological world and get basic knowledge about the programming languages and CS.</p>
+        </div>
+        <div id="feb2020">
+          <h2>Created first python program</h2>
+          <h3>February 2020</h3>
+          <br>
+          <p>After passout 10th started learning python language from internet and created first program/game of Stone-Paper-Gun a luck oriented game where computer and you play against each other.</p>
+        </div>
+        <div id="mar2020">
+          <h2>Created first C++ program</h2>
+          <h3>March 2020</h3>
+          <br>
+          <p>
+            After learning python learn cpp also from internet and collage and created a first program application of locus which take two points and give its distance between them and there line locus
+          </p>
+        </div>
+        <div id="sept2020">
+          <h2>Created first website</h2>
+          <h3>September 2020</h3>
+          <br>
+          <p>Start learning HTML,CSS and Js from books,collage and internet and created first self blogging website page by using html css and then created an analog-clock website which show time of different countries by html,css and js.</p>
+        </div>
+      </section>
+    </section>
+    </div>
+
+    <section class="projects max-width m-auto" >
+      <h1 class="head" id="project"> Projects</h1>
+      <br>
+      <div class="pro">
+        <div class="content">
+          <h3>Light</h3>
+          <img src="./img/light.png" alt="">
+          <p>This is light a chatbot based on artificial intelligence. It's a great project make by python with help of tkinter and chatterbot module,its easy and simple UI with a contrastic black and gold colour. Its also contain some command that will help in your work.</p>
+          <a href="https://github.com/AniruddhaGawali/Light" style="font-size: 1.7em;" target="_blank">more</a>
+        </div>
+        
+        <div class="content">
+          <h3>Password Manager</h3>
+          <img src="./img/pass.png" alt="">
+          <p>This Application is create for saving and to keeping secure your passwords which you can't remember always. This is an simple application works on python lanugage. It's an GUI based application simple and easy to use application. </p>
+          <a href="https://github.com/AniruddhaGawali/Password-Manager" style="font-size: 1.7em;" target="_blank">more</a>
+        </div>
+
+        <div class="content">
+          <h3>HTML-CSS-Js Analog Clock </h3>
+          <img src="./img/time.png" alt="">
+          <p>This is an Analog clock made by html ,css , js. The clock show the correct local time as well as the time of different country also. It's also have the a stopwatch  and alarm , You can give a try to it.</p>
+          <a href="https://aniruddhagawali.github.io/HTML-JS-Analog-clock/" style="font-size: 1.7em;" target="_blank">more</a>
+        </div>
+
+      </div>    
+    </section>
+
+    <section class="learn" id="learn">
+      <h1  class="head">Language learn</h1>
+      <br>
+      <div class="language m-auto">
+        <img src="./img/python.png" alt="">
+        <img src="./img/cpp.png" style="width: 70px;" alt="">
+        <img src="./img/html.png" alt="">
+        <img src="./img/css.png" style="width: 59.5px;" alt="">
+        <img src="./img/js.png" alt="">
+        <img src="./img/Octocat.png" style="width: 96px;" alt="">
+      </div>
+      <br>
+      <h1 class="head">Tools</h1>
+      <br>
+      <div class="tools m-auto">
+        <img src="./img/vscode.png" alt="">
+        <img src="./img/sublime.png" alt="">
+        <img src="./img/bootstamp.png" style="width: 95px;" alt="">
+        <img src="./img/bash.png" style="width: 65px;" alt="">
+      </div>
+    </section>
+    <br><br>
+
+    <footer>
+      <p> All copyright&copy; of images,content and website designe by Aniruddha Gawali(AKG)</p>
+      <div class="social-f">
+        <div onclick="window.open('https://www.facebook.com/aniruddha.gawali.14')" class="fa fa-facebook"></div>
+        <div onclick="window.open('https://www.instagram.com/aniruddha.gawali/')" class="fa fa-instagram"></div>
+        <div onclick="window.open('https://twitter.com/')" class="fa fa-twitter"></div>
+        <div onclick="window.open('https://github.com/AniruddhaGawali')" class="fa fa-github"></div>
+      </div>
+    </footer>
+  
+
+
+
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+    <script src="./js/utili.js"></script>
+  </body>
+</html>

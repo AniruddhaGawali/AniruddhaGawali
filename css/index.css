@@ -1,0 +1,256 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-family: var(--fira);
+  margin-bottom: 5vw;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+nav h1 {
+  display: none;
+}
+
+.logo img {
+  max-width: 80px;
+  border-radius: 100px;
+  margin: 5px 0 0 0;
+  border: 2px solid #fff;
+  transition: all 0.6s;
+}
+.logo img:hover {
+  box-shadow: 0 0 10px var(--text_color);
+}
+
+.nav-menu {
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+}
+
+.menu {
+  margin: 0 20px;
+  text-decoration: none;
+  font-family: var(--fira);
+  color: var(--maincolor);
+  transition: margin-bottom 0.25s;
+}
+.menu:hover {
+  color: var(--maincolor2);
+  margin-bottom: 5px;
+}
+#menubtn {
+  display: none;
+}
+.resume {
+  margin: 0 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+#theme {
+  width: 30px;
+  align-items: center;
+  margin: 0px 20px;
+  cursor: pointer;
+
+  transition: transform 1s, margin-bottom 0.29s;
+}
+#theme:hover {
+  margin-bottom: 8px;
+}
+
+.about {
+  font-family: var(--fira);
+  text-align: left;
+  margin-top: 15vw;
+}
+#greet {
+  font-size: 1em;
+  color: var(--maincolor2);
+}
+#name {
+  font-size: 5em;
+  /* color: var(--maincolor); */
+}
+.about h3 {
+  font-size: 2.5em;
+  /* color: var(--maincolor); */
+}
+
+.about-more {
+  font-family: var(--fira2);
+  display: flex;
+  font-size: 1.2em;
+  align-items: center;
+}
+.about-more section {
+  margin: 0 20px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+}
+.head {
+  font-size: 2.5em;
+  font-family: var(--fira);
+  color: var(--maincolor2);
+  text-align: center;
+  justify-content: center;
+}
+.left p {
+  margin: 10px;
+}
+.right img {
+  width: 30vw;
+  border-radius: 20px;
+  border: 3px solid var(--maincolor2);
+  transition: all 0.6s;
+}
+.right img:hover {
+  box-shadow: 0 0 10px var(--maincolor2);
+}
+
+.projects {
+  margin-top: 18vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro {
+  display: flex;
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid var(--maincolor);
+  border-radius: 20px;
+  margin: 0 20px;
+  padding: 10px;
+  font-family: var(--fira2);
+  width: 30vw;
+  transition: all 0.6s;
+}
+.content:hover {
+  border: 2px solid var(--maincolor2);
+  box-shadow: 0 0 10px var(--maincolor2);
+}
+.content h3 {
+  margin: 10px 0;
+  font-size: 1.3em;
+  font-family: var(--fira);
+}
+.content img {
+  width: 20vw;
+  border: 2px solid var(--text_color);
+  border-radius: 20px;
+}
+
+.learn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: var(--fira);
+  margin: 10vw 0;
+  margin-top: 18vw;
+}
+.learn h1 {
+  text-align: center;
+  justify-content: center;
+}
+.language {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--maincolor);
+  width: 70%;
+  border-radius: 20px;
+}
+.language img {
+  width: 80px;
+  margin: 20px;
+  transition: all 0.5s;
+}
+
+.language img:hover {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.tools {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  border-radius: 20px;
+  background-color: var(--maincolor2);
+}
+.tools img {
+  width: 70px;
+  margin: 20px;
+  transition: all 0.5s;
+}
+
+.tools img:hover {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--maincolor2);
+  border-radius: 20px;
+  max-width: 50%;
+  font-family: var(--fira2);
+  transition: all 1s;
+  overflow-x: auto;
+  height: 30vw;
+}
+.timeline::-webkit-scrollbar-track {
+  margin: 8px;
+}
+
+.timeline section {
+  margin: 0 20px;
+}
+
+.date {
+  width: 50%;
+}
+
+.date h1 {
+  margin: 20px 10px;
+  cursor: pointer;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.info {
+  width: 100%;
+}
+
+.info div {
+  margin: 20px 20px;
+  display: none;
+}
+
+.info h2 {
+  color: var(--maincolor);
+}
+.info h3 {
+  color: var(--maincolor2);
+}
