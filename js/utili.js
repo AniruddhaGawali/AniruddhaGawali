@@ -69,7 +69,7 @@ function display_on(id,color) {
   }
   document.getElementById(id).style.display='block'
   document.getElementById(color).style.background='var(--maincolor)'
-
+  
   old_id = id
   old_color= color
   
@@ -89,6 +89,7 @@ if (userPrefersDark) {
 }
 
 document.getElementById('2003').style.display='block'
+document.getElementById('1').style.background='var(--maincolor)'
 
 
 

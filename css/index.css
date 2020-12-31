@@ -210,12 +210,16 @@ nav h1 {
   border-radius: 20px;
   max-width: 50%;
   font-family: var(--fira2);
-  transition: all 1s;
+  transition: all 0.6s ;
   overflow-x: auto;
   height: 30vw;
 }
 .timeline::-webkit-scrollbar-track {
   margin: 8px;
+}
+.timeline:hover{
+  box-shadow: 0 0 10px var(--maincolor2);
+
 }
 
 .timeline section {
