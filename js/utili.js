@@ -65,11 +65,11 @@ function display_on(id,color) {
   if (document.getElementById(old_id).style.display == 'block'){
     document.getElementById(old_id).style.display = 'none'
     document.getElementById(old_color).style.background='transparent'
-    document.getElementById(old_color).style.color='#000'
+    document.getElementById(old_color).style.color='var(--text_color)'
   }
   document.getElementById(id).style.display='block'
   document.getElementById(color).style.background='var(--maincolor)'
-  document.getElementById(color).style.color='#fff'
+  document.getElementById(color).style.color='var(--text_color2)'
   
   old_id = id
   old_color= color
