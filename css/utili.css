@@ -128,7 +128,7 @@ ul li::before {
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: auto;
 }
 
 /* Track */

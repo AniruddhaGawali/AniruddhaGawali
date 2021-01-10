@@ -91,7 +91,12 @@
     flex-direction: column;
     padding: 10px;
   }
+  ::-webkit-scrollbar {
+    height: 3px;
+    width: 3px;
+  }
 }
+
 
 @media screen and (max-width: 400px) {
   #name {
