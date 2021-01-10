@@ -67,21 +67,25 @@
     display: flex;
     flex-direction: column;
     max-width: 80vw;
-    height:65vh;
+    height:54vh;
+    padding: 0 5px;
   }
   .info p{
     margin: 20px 0px;
   }
   .info{
-    overflow: auto;
-    height: 50vh;
+    height: 35%;
+    text-align: center;
     padding: 10px 0;
+    overflow: auto;
+    margin: 0 10px;
 
   }
   .date{
     display: flex;
     overflow: auto;
     width:90% ;
+    height:auto;
   }
   footer{
     flex-direction: column;
@@ -96,3 +100,4 @@
   }
 
 }
+
