@@ -128,13 +128,13 @@ ul li::before {
 }
 /* width */
 ::-webkit-scrollbar {
-  width: auto;
+  width: 13px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: var(--scroll-color);
-  border-radius: 20px;
+  border-radius: 5px;
   margin: 3px 0;
 }
 
@@ -142,6 +142,7 @@ ul li::before {
 ::-webkit-scrollbar-thumb {
   background: var(--maincolor); 
   border-radius: 20px;
+  border: 3px solid var(--scroll-color);
 }
 
 /* Handle on hover */
@@ -157,4 +158,14 @@ footer{
   font-size: 1em;
   background: var(--maincolor);
   display: flex; 
+}
+
+::-moz-selection { /* Code for Firefox */
+  color:#fff;
+  background: var(--maincolor);
+}
+
+::selection {
+  color: #fff;
+  background: var(--maincolor);
 }

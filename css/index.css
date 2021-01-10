@@ -213,14 +213,10 @@ nav h1 {
   transition: all 0.6s ;
   height: 25vw;
 }
-.timeline::-webkit-scrollbar-track {
-  margin: 8px;
-}
 .timeline:hover{
   box-shadow: 0 0 10px var(--maincolor2);
 
 }
-
 .timeline section {
   margin: 0 20px;
   overflow:auto;
@@ -242,7 +238,7 @@ nav h1 {
   -ms-user-select: none; /* Internet Explorer/Edge */
   padding: 5px;
   border-radius: 5px;
-  transition: all 0.5s;
+  transition: all 0s ease-in-out;
 }
 
 .info {

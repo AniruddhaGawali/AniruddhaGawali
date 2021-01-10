@@ -99,6 +99,9 @@
     height: 3px;
     width: 3px;
   }
+  ::-webkit-scrollbar-thumb {
+    border: 0px solid var(--scroll-color);
+  }
 }
 
 
