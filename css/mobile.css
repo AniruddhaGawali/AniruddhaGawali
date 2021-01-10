@@ -73,12 +73,16 @@
   .info p{
     margin: 20px 0px;
   }
+  .timeline section {
+    margin: 10px;
+  }
+
   .info{
     height: 35%;
     text-align: center;
     padding: 10px 0;
     overflow: auto;
-    margin: 0 10px;
+    margin: 10px;
 
   }
   .date{
