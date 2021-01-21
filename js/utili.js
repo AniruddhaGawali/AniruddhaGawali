@@ -30,7 +30,7 @@ function theme() {
     document.documentElement.style.setProperty("--text_color2", "#000");
     document.documentElement.style.setProperty("--nav_color", "rgb(14,14,14)");
     document.documentElement.style.setProperty("--scroll-color", " #f1f1f1");
-    
+
     document.getElementById("theme").src =
       "https://i.ibb.co/QFpDYhr/theme-l.png";
     document.getElementById("theme").style.transform = "rotate(360deg)";
@@ -45,7 +45,10 @@ function theme() {
     document.documentElement.style.setProperty("--text_color", "#000");
     document.documentElement.style.setProperty("--text_color2", "#fff");
     document.documentElement.style.setProperty("--nav_color", "#fff");
-    document.documentElement.style.setProperty("--scroll-color", "rgb(155, 155, 155)");
+    document.documentElement.style.setProperty(
+      "--scroll-color",
+      "rgb(155, 155, 155)"
+    );
 
     document.getElementById("theme").src =
       "https://i.ibb.co/zrK9B08/theme-d.png";
@@ -59,23 +62,21 @@ function theme() {
   }
 }
 
-let old_id = '2003'
-let old_color = '1'
-function display_on(id,color) { 
-  if (document.getElementById(old_id).style.display == 'block'){
-    document.getElementById(old_id).style.display = 'none'
-    document.getElementById(old_color).style.background='transparent'
-    document.getElementById(old_color).style.color='var(--text_color)'
+let old_id = "2003";
+let old_color = "1";
+function display_on(id, color) {
+  if (document.getElementById(old_id).style.display == "block") {
+    document.getElementById(old_id).style.display = "none";
+    document.getElementById(old_color).style.background = "transparent";
+    document.getElementById(old_color).style.color = "var(--text_color)";
   }
-  document.getElementById(id).style.display='block'
-  document.getElementById(color).style.background='var(--maincolor)'
-  document.getElementById(color).style.color='var(--text_color2)'
-  
-  old_id = id
-  old_color= color
-  
-}
+  document.getElementById(id).style.display = "block";
+  document.getElementById(color).style.background = "var(--maincolor)";
+  document.getElementById(color).style.color = "var(--text_color2)";
 
+  old_id = id;
+  old_color = color;
+}
 
 const userPrefersDark =
   window.matchMedia &&
@@ -89,8 +90,12 @@ if (userPrefersDark) {
   theme();
 }
 
-document.getElementById('2003').style.display='block'
-document.getElementById('1').style.background='var(--maincolor)'
+document.getElementById("2003").style.display = "block";
+document.getElementById("1").style.background = "var(--maincolor)";
 
-
-
+function scroll_w(top) {
+  window.scroll({
+    top: top,
+    behavior: "smooth",
+  });
+}
