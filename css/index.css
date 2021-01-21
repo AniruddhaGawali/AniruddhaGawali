@@ -66,9 +66,14 @@ nav h1 {
   text-align: left;
   margin-top: 15vw;
 }
+
 #greet {
   font-size: 1em;
   color: var(--maincolor2);
+  transition: all .6s;
+}
+#greet:hover {
+  text-shadow: 2px 2px 8px var(--maincolor2);
 }
 #name {
   font-size: 5em;
@@ -136,8 +141,8 @@ nav h1 {
   transition: all 0.6s;
 }
 .content:hover {
-  border: 2px solid var(--maincolor2);
-  box-shadow: 0 0 10px var(--maincolor2);
+  border: 2px solid var(--maincolor);
+  box-shadow: 0 0 10px var(--maincolor);
 }
 .content h3 {
   margin: 10px 0;
@@ -148,6 +153,9 @@ nav h1 {
   width: 20vw;
   border: 2px solid var(--text_color);
   border-radius: 20px;
+}
+.content p{
+  margin: 3vw 0 2vw 0;
 }
 
 .learn {
@@ -177,7 +185,7 @@ nav h1 {
 }
 
 .language img:hover {
-  background-color: #fff;
+  background-color: var(--text_color2);
   padding: 10px;
   border-radius: 20px;
 }
@@ -197,7 +205,7 @@ nav h1 {
 }
 
 .tools img:hover {
-  background-color: #fff;
+  background-color: var(--text_color2);
   padding: 10px;
   border-radius: 20px;
 }
@@ -210,22 +218,20 @@ nav h1 {
   border-radius: 20px;
   max-width: 50%;
   font-family: var(--fira2);
-  transition: all 0.6s ;
+  transition: all 0.6s;
   height: 25vw;
 }
-.timeline:hover{
+.timeline:hover {
   box-shadow: 0 0 10px var(--maincolor2);
-
 }
 .timeline section {
   margin: 0 20px;
-  overflow:auto;
+  overflow: auto;
 }
 
 .date {
   width: 50%;
   height: 99%;
-  
 }
 
 .date h1 {
@@ -243,7 +249,7 @@ nav h1 {
 
 .info {
   width: 100%;
-  height:auto;
+  height: auto;
   justify-content: center;
   align-items: center;
   text-align: left;
