@@ -1,26 +1,26 @@
-let up_arrow = "https://i.ibb.co/NsMtrZw/up-arrow.png";
-let down_arrow = "https://i.ibb.co/fFdYGWQ/angle-arrow-down.png";
-function menu() {
-  var x = document.getElementById("nav");
-  if (x.style.display === "none") {
-    x.style.display = "flex";
-    document.getElementById("menubtn").src = up_arrow;
-  } else {
-    x.style.display = "none";
-    document.getElementById("menubtn").src = down_arrow;
-  }
-}
+// let up_arrow = "https://i.ibb.co/NsMtrZw/up-arrow.png";
+// let down_arrow = "https://i.ibb.co/fFdYGWQ/angle-arrow-down.png";
+// function menu() {
+//   var x = document.getElementById("nav");
+//   if (x.style.display === "none") {
+//     x.style.display = "flex";
+//     document.getElementById("menubtn").src = up_arrow;
+//   } else {
+//     x.style.display = "none";
+//     document.getElementById("menubtn").src = down_arrow;
+//   }
+// }
 
-function change_arrow() {
-  var x = document.getElementById("nav");
-  if (x.style.display === "none") {
-    document.getElementById("menubtn").src = down_arrow;
-  } else if (x.style.display === "flex") {
-    document.getElementById("menubtn").src = up_arrow;
-  } else {
-    document.getElementById("menubtn").src = down_arrow;
-  }
-}
+// function change_arrow() {
+//   var x = document.getElementById("nav");
+//   if (x.style.display === "none") {
+//     document.getElementById("menubtn").src = down_arrow;
+//   } else if (x.style.display === "flex") {
+//     document.getElementById("menubtn").src = up_arrow;
+//   } else {
+//     document.getElementById("menubtn").src = down_arrow;
+//   }
+// }
 
 let themes = 0;
 function theme() {
@@ -36,9 +36,6 @@ function theme() {
     document.getElementById("theme").style.transform = "rotate(360deg)";
     // document.getElementById("theme").style.transition = 'transform 1s ,margin-bottom .25s';
 
-    down_arrow = "https://i.ibb.co/cyfzHDW/imageonline-co-invertedimage.png";
-    up_arrow = "https://i.ibb.co/1zzPK5V/imageonline-co-invertedimage-1.png";
-    change_arrow();
     themes = 1;
   } else {
     document.body.style.backgroundColor = "white";
@@ -54,10 +51,6 @@ function theme() {
       "https://i.ibb.co/zrK9B08/theme-d.png";
     document.getElementById("theme").style.transform = "rotate(0deg)";
     // document.getElementById("theme").style.transition = 'transform 1s,margin-bottom .25s';
-
-    up_arrow = "https://i.ibb.co/NsMtrZw/up-arrow.png";
-    down_arrow = "https://i.ibb.co/fFdYGWQ/angle-arrow-down.png";
-    change_arrow();
     themes = 0;
   }
 }
@@ -99,3 +92,4 @@ function scroll_w(top) {
     behavior: "smooth",
   });
 }
+

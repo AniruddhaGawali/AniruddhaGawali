@@ -92,17 +92,32 @@ a:hover:after {
 
 ul li::before {
   content: "\2022";
-  color: var(--maincolor2);
+  color: var(--maincolor);
   font-weight: bold;
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
 }
 
+.head {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5em;
+  font-family: var(--fira);
+  color: var(--maincolor2);
+  text-align: center;
+  justify-content: center;
+
+}
+
 .fa{
   font-size: 25px;
   margin:20px 6px;
   color: var(--text_color);
+  transition: all 0.6s;
+}
+.fa:hover{
+  font-size: 30px;
 }
 .fa-facebook{
   color: #3B5998;

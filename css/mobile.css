@@ -1,3 +1,11 @@
+@media screen and (max-width: 1000px) {
+  .info{
+    overflow: auto;
+    height: 99%;
+  }
+}
+
+
 @media screen and (max-width: 740px) {
   body {
     text-align: center;
@@ -5,9 +13,7 @@
   nav {
     flex-direction: column;
     padding: 0;
-  }
-  nav h1 {
-    display: block;
+    
   }
   .nav-menu {
     flex-direction: column;
@@ -29,6 +35,7 @@
   }
   .about{
     text-align: center;
+    margin-top: 0vw;
   }
   .about-more {
     flex-direction: column;
