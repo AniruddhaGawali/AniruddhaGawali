@@ -97,6 +97,23 @@ ul li::before {
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
+  transition: all 0.5s;
+}
+
+ul li:hover::before{
+  color: var(--maincolor2);
+}
+
+ul li:hover{
+  color: var(--maincolor2);
+  cursor: pointer;
+}
+ul li{
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .head {
