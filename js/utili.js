@@ -33,6 +33,8 @@ function theme() {
 
     document.getElementById("theme").src =
       "https://i.ibb.co/QFpDYhr/theme-l.png";
+    document.getElementById("theme2").src =
+      "https://i.ibb.co/QFpDYhr/theme-l.png";
     document.getElementById("theme").style.transform = "rotate(360deg)";
     // document.getElementById("theme").style.transition = 'transform 1s ,margin-bottom .25s';
 
@@ -48,6 +50,8 @@ function theme() {
     );
 
     document.getElementById("theme").src =
+      "https://i.ibb.co/zrK9B08/theme-d.png";
+    document.getElementById("theme2").src =
       "https://i.ibb.co/zrK9B08/theme-d.png";
     document.getElementById("theme").style.transform = "rotate(0deg)";
     // document.getElementById("theme").style.transition = 'transform 1s,margin-bottom .25s';

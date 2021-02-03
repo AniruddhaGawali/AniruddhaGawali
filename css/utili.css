@@ -17,8 +17,8 @@ body {
   --maincolor2: orangered;
   --text_color: black;
   --text_color2: white;
-  --nav_color:white;
-  --scroll-color:rgb(155, 155, 155);
+  --nav_color: white;
+  --scroll-color: rgb(155, 155, 155);
 }
 
 a {
@@ -59,10 +59,10 @@ a:hover:after {
   position: fixed;
   top: 0;
   width: 100%;
-  background:var(--nav_color);
+  background: var(--nav_color);
 }
 
-.btn{
+.btn {
   background: transparent;
   border: 3px solid var(--maincolor);
   font-family: var(--fira);
@@ -70,23 +70,22 @@ a:hover:after {
   color: var(--maincolor);
   padding: 8px;
   border-radius: 100px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
   outline: none;
 }
 
-.btn:hover{
+.btn:hover {
   color: var(--maincolor2);
   border: 3px solid var(--maincolor2);
   margin-bottom: 5px;
-  
 }
 
-.m-auto{
+.m-auto {
   margin: auto;
 }
 
-.max-width{
+.max-width {
   max-width: 80%;
 }
 
@@ -94,21 +93,21 @@ ul li::before {
   content: "\2022";
   color: var(--maincolor);
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
   transition: all 0.5s;
 }
 
-ul li:hover::before{
+ul li:hover::before {
   color: var(--maincolor2);
 }
 
-ul li:hover{
+ul li:hover {
   color: var(--maincolor2);
   cursor: pointer;
 }
-ul li{
+ul li {
   user-select: none; /* supported by Chrome and Opera */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -124,39 +123,37 @@ ul li{
   color: var(--maincolor2);
   text-align: center;
   justify-content: center;
-
 }
 
-.fa{
+.fa {
   font-size: 25px;
-  margin:20px 6px;
+  margin: 20px 6px;
   color: var(--text_color);
   transition: all 0.6s;
 }
-.fa:hover{
+.fa:hover {
   font-size: 30px;
 }
-.fa-facebook{
-  color: #3B5998;
+.fa-facebook {
+  color: #3b5998;
 }
-.fa-instagram{
+.fa-instagram {
   color: #c333af;
 }
-.fa-twitter{
+.fa-twitter {
   color: skyblue;
 }
-.fa-facebook:hover{
-  text-shadow: 0 0 5px  #3B5998;
+.fa-facebook:hover {
+  text-shadow: 0 0 5px #3b5998;
 }
-.fa-instagram:hover{
+.fa-instagram:hover {
   text-shadow: 0 0 5px #c333af;
 }
-.fa-twitter:hover{
+.fa-twitter:hover {
   text-shadow: 0 0 5px skyblue;
 }
-.fa-github:hover{
+.fa-github:hover {
   text-shadow: 0 0 5px #fff;
-
 }
 /* width */
 ::-webkit-scrollbar {
@@ -172,32 +169,51 @@ ul li{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--maincolor); 
+  background: var(--maincolor);
   border-radius: 20px;
   border: 3px solid var(--scroll-color);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--maincolor2); 
+  background: var(--maincolor2);
 }
 
-footer{
+footer {
   font-family: var(--fira2);
   justify-content: space-between;
   text-align: center;
   align-items: center;
   font-size: 1em;
   background: var(--maincolor);
-  display: flex; 
+  display: flex;
 }
 
-::-moz-selection { /* Code for Firefox */
-  color:#fff;
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
   background: var(--maincolor);
 }
 
 ::selection {
   color: #fff;
   background: var(--maincolor);
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
+    url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
+    url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+.material-icons {
+  font-size: 2.5em;
+  padding: 10px 0 0 0 ;
 }

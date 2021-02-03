@@ -1,10 +1,9 @@
 @media screen and (max-width: 1000px) {
-  .info{
+  .info {
     overflow: auto;
     height: 99%;
   }
 }
-
 
 @media screen and (max-width: 740px) {
   body {
@@ -14,7 +13,9 @@
     flex-direction: column;
     padding: 0;
     box-shadow: 0 0 0 0;
-    
+  }
+  #theme2 {
+    display: inline;
   }
   .nav-menu {
     flex-direction: column;
@@ -34,7 +35,7 @@
   .resume {
     margin: 20px 0;
   }
-  .about{
+  .about {
     text-align: center;
     margin-top: 0vw;
   }
@@ -64,42 +65,41 @@
     margin: 20px 0;
   }
   .sticky {
-    position:relative;
+    position: relative;
     width: 100%;
     margin-bottom: 30px;
   }
-  .head{
+  .head {
     justify-content: center;
   }
-  .timeline{
+  .timeline {
     display: flex;
     flex-direction: column;
     max-width: 80vw;
-    height:54vh;
+    height: 54vh;
     padding: 0 5px;
   }
-  .info p{
+  .info p {
     margin: 20px 0px;
   }
   .timeline section {
     margin: 10px;
   }
 
-  .info{
+  .info {
     height: 35%;
     text-align: center;
     padding: 10px 0;
     overflow: auto;
     margin: 10px;
-
   }
-  .date{
+  .date {
     display: flex;
     overflow: auto;
-    width:90% ;
-    height:auto;
+    width: 90%;
+    height: auto;
   }
-  footer{
+  footer {
     flex-direction: column;
     padding: 10px;
   }
@@ -112,12 +112,8 @@
   }
 }
 
-
 @media screen and (max-width: 400px) {
   #name {
     font-size: 3em;
-
   }
-
 }
-

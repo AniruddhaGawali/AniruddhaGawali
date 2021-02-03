@@ -62,10 +62,16 @@ nav h1 {
   margin-bottom: 8px;
 }
 
+#theme2{
+  display: none;
+}
+
 .about {
   font-family: var(--fira);
   text-align: left;
   margin-top: 15vw;
+  align-items: center;
+  justify-content: center;
 }
 
 #greet {
