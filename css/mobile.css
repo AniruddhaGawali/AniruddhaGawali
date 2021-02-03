@@ -13,6 +13,7 @@
   nav {
     flex-direction: column;
     padding: 0;
+    box-shadow: 0 0 0 0;
     
   }
   .nav-menu {
@@ -65,7 +66,7 @@
   .sticky {
     position:relative;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
   .head{
     justify-content: center;

@@ -58,7 +58,7 @@ a:hover:after {
 .sticky {
   position: fixed;
   top: 0;
-  width: 96.5%;
+  width: 100%;
   background:var(--nav_color);
 }
 
