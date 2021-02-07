@@ -1,29 +1,7 @@
-// let up_arrow = "https://i.ibb.co/NsMtrZw/up-arrow.png";
-// let down_arrow = "https://i.ibb.co/fFdYGWQ/angle-arrow-down.png";
-// function menu() {
-//   var x = document.getElementById("nav");
-//   if (x.style.display === "none") {
-//     x.style.display = "flex";
-//     document.getElementById("menubtn").src = up_arrow;
-//   } else {
-//     x.style.display = "none";
-//     document.getElementById("menubtn").src = down_arrow;
-//   }
-// }
-
-// function change_arrow() {
-//   var x = document.getElementById("nav");
-//   if (x.style.display === "none") {
-//     document.getElementById("menubtn").src = down_arrow;
-//   } else if (x.style.display === "flex") {
-//     document.getElementById("menubtn").src = up_arrow;
-//   } else {
-//     document.getElementById("menubtn").src = down_arrow;
-//   }
-// }
-
 let themes = 0;
+
 function theme() {
+  // the function to changes the theme in which the root variables are been changes and sone syles of some objects also.
   if (themes === 0) {
     document.body.style.backgroundColor = "rgb(14,14,14)";
     document.documentElement.style.setProperty("--text_color", "#fff");
@@ -38,7 +16,6 @@ function theme() {
       "https://i.ibb.co/QFpDYhr/theme-l.png";
     document.getElementById("theme").style.transform = "rotate(360deg)";
     document.getElementById("theme2").style.transform = "rotate(360deg)";
-    // document.getElementById("theme").style.transition = 'transform 1s ,margin-bottom .25s';
 
     themes = 1;
   } else {
@@ -47,10 +24,7 @@ function theme() {
     document.documentElement.style.setProperty("--text_color2", "#fff");
     document.documentElement.style.setProperty("--nav_color", "#fff");
     document.documentElement.style.setProperty("--icon", "#fff");
-    document.documentElement.style.setProperty(
-      "--scroll-color",
-      "rgb(155, 155, 155)"
-    );
+    document.documentElement.style.setProperty("--scroll-color", "rgb(155, 155, 155)");
 
     document.getElementById("theme").src =
       "https://i.ibb.co/zrK9B08/theme-d.png";
@@ -58,14 +32,19 @@ function theme() {
       "https://i.ibb.co/zrK9B08/theme-d.png";
     document.getElementById("theme").style.transform = "rotate(0deg)";
     document.getElementById("theme2").style.transform = "rotate(0deg)";
-    // document.getElementById("theme").style.transition = 'transform 1s,margin-bottom .25s';
     themes = 0;
   }
 }
 
+
+// --------------------------------------------------------------------------------------------
+
 let old_id = "2003";
 let old_color = "1";
+
 function display_on(id, color) {
+  // thes fuction controals the time line of the html shows the information according to the selected option
+
   if (document.getElementById(old_id).style.display == "block") {
     document.getElementById(old_id).style.display = "none";
     document.getElementById(old_color).style.background = "transparent";
@@ -79,6 +58,8 @@ function display_on(id, color) {
   old_color = color;
 }
 
+
+// this set the theme according to the theme / mode of user 
 const userPrefersDark =
   window.matchMedia &&
   window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -94,7 +75,10 @@ if (userPrefersDark) {
 document.getElementById("2003").style.display = "block";
 document.getElementById("1").style.background = "var(--maincolor)";
 
+
+// ---------------------------------------------------------------------------------------------------------
 function scroll_w(top) {
+  // this is at fuction to scroll the site 
   window.scroll({
     top: top,
     behavior: "smooth",
