@@ -34,6 +34,7 @@ nav h1 {
   text-decoration: none;
   font-family: var(--fira);
   color: var(--maincolor);
+  cursor: pointer;
   transition: margin-bottom 0.25s;
 }
 .menu:hover {
@@ -59,7 +60,7 @@ nav h1 {
   transition: transform 1s, margin-bottom 0.29s;
 }
 #theme:hover {
-  margin-bottom: 8px;
+  margin-bottom: 13px;
 }
 
 #theme2{
@@ -176,11 +177,12 @@ nav h1 {
 .language img {
   width: 80px;
   margin: 20px;
+  /* cursor: none; */
   transition: all 0.6s;
 }
 
 .language img:hover {
-  background-color: var(--text_color2);
+  background-color: var(--icon);
   padding: 10px;
   border-radius: 20px;
 }
@@ -196,11 +198,12 @@ nav h1 {
 .tools img {
   width: 70px;
   margin: 20px;
+  /* cursor: none; */
   transition: all 0.5s;
 }
 
 .tools img:hover {
-  background-color: var(--text_color2);
+  background-color: var(--icon);
   padding: 10px;
   border-radius: 20px;
 }

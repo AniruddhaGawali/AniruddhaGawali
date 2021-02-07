@@ -19,6 +19,7 @@ body {
   --text_color2: white;
   --nav_color: white;
   --scroll-color: rgb(155, 155, 155);
+  --icon:white;
 }
 
 a {
@@ -129,6 +130,7 @@ ul li {
   font-size: 25px;
   margin: 20px 6px;
   color: var(--text_color);
+  cursor: pointer;
   transition: all 0.6s;
 }
 .fa:hover {
