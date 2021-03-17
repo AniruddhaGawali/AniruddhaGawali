@@ -8,7 +8,7 @@ function theme() {
     document.documentElement.style.setProperty("--text_color2", "#000");
     document.documentElement.style.setProperty("--nav_color", "rgb(14,14,14)");
     document.documentElement.style.setProperty("--icon", "rgb(20,20,20)");
-    document.documentElement.style.setProperty("--scroll-color", " #f1f1f1");
+    document.documentElement.style.setProperty("--scroll-color", " #333");
 
     document.getElementById("theme").src =
       "https://i.ibb.co/QFpDYhr/theme-l.png";
@@ -24,7 +24,7 @@ function theme() {
     document.documentElement.style.setProperty("--text_color2", "#fff");
     document.documentElement.style.setProperty("--nav_color", "#fff");
     document.documentElement.style.setProperty("--icon", "#fff");
-    document.documentElement.style.setProperty("--scroll-color", "rgb(155, 155, 155)");
+    document.documentElement.style.setProperty("--scroll-color", "#cecece");
 
     document.getElementById("theme").src =
       "https://i.ibb.co/zrK9B08/theme-d.png";

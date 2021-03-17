@@ -14,11 +14,11 @@ body {
   --fira: "Fira Sans", sans-serif;
   --fira2: "Fira Sans Condensed", sans-serif;
   --maincolor: #5948c7;
-  --maincolor2: orangered;
+  --maincolor2: #ff4500;
   --text_color: black;
   --text_color2: white;
   --nav_color: white;
-  --scroll-color: rgb(155, 155, 155);
+  --scroll-color: #cecece;
   --icon:white;
 }
 
