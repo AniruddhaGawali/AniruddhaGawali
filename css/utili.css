@@ -160,6 +160,7 @@ ul li {
 /* width */
 ::-webkit-scrollbar {
   width: 13px;
+  
 }
 
 /* Track */
@@ -167,6 +168,7 @@ ul li {
   background: var(--scroll-color);
   border-radius: 5px;
   margin: 3px 0;
+  transition: all 1s ease-out;
 }
 
 /* Handle */
