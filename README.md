@@ -12,7 +12,7 @@
 - ## Languages I Learn
 
   
-  ![html](https://img.shields.io/badge/-HTML-silver?style=flat-square&logo=html5&logoColor=color)
+  ![www.google.com](https://img.shields.io/badge/-HTML-silver?style=flat-square&logo=html5&logoColor=color)
   ![css](https://img.shields.io/badge/-CSS-silver?style=flat-square&logo=CSS3&logoColor=blue) ![javascript](https://img.shields.io/badge/-Javascript-silver?style=flat-square&logo=Javascript&logoColor=color) ![python](https://img.shields.io/badge/Python-silver?style=flat-square&logo=python&logoColor=color) 
   ![C++](https://img.shields.io/badge/-C++-silver?style=flat-square&logo=c%2b%2b&logoColor=color)
   ![powershell](https://img.shields.io/badge/-Powershell-silver?style=flat-square&logo=powershell&logoColor=color)  ![shell](https://img.shields.io/badge/-Shell-silver?style=flat-square&logo=shell&logoColor=color)
