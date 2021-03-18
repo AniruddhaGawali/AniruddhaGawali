@@ -56,11 +56,11 @@ nav h1 {
   align-items: center;
   margin: 0px 20px;
   cursor: pointer;
+  padding: 3px;
+  border: var(--text_color) solid 2px;
+  border-radius: 50%;
 
-  transition: transform 1s, margin-bottom 0.29s;
-}
-#theme:hover {
-  margin-bottom: 13px;
+  transition: transform 1s;
 }
 
 #theme2{
