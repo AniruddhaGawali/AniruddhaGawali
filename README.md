@@ -1,7 +1,7 @@
 
 # Hi, I'm AniruddhaGawali (AKG) <a href="https://www.gautamkrishnar.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"></a>
 
-<img align='right' src='<img align='right' src='https://i.ibb.co/QkWYsXM/Pics-Art-05-30-05-41-22.png' width="100">' width="100">
+<img align='right' src='https://i.ibb.co/QkWYsXM/Pics-Art-05-30-05-41-22.png' width="200">
 
 [![github](https://img.shields.io/badge/AniruddhaGawali-171717?style=flat-square&logo=Github&logoColor=color)](https://github.com/AniruddhaGawali)
 [![gmail](https://img.shields.io/badge/aniruddhagawali05@gmail.com-E95439?style=flat-square&logo=Gmail&logoColor=white)](mailto:aniruddhagawali05@gmail.com)
