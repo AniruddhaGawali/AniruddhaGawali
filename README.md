@@ -5,7 +5,7 @@
 
 [![github](https://img.shields.io/badge/AniruddhaGawali-171717?style=flat-square&logo=Github&logoColor=color)](https://github.com/AniruddhaGawali)
 [![gmail](https://img.shields.io/badge/aniruddhagawali05@gmail.com-E95439?style=flat-square&logo=Gmail&logoColor=white)](mailto:aniruddhagawali05@gmail.com)
-[![wesite](https://img.shields.io/badge/%20🔖-AKG_Site-slateblue?style=flat-square&labelColor=slateblue)](https://aniruddhagawali.github.io/AniruddhaGawali/)
+[![wesite](https://img.shields.io/badge/%20🔖-AKG_Site-slateblue?style=flat-square&labelColor=slateblue)](https://akgsite.netlify.com)
 
 **Hi I am Aniruddha Gawali you can call me AKG in short. I love coding and Computers This is my github. I have crated lots of project you can exploer them on my website. My fravotie language is python so I have made lots of of projects on it like AI, Tkinter application and many more**
 
