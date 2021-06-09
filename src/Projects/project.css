@@ -1,0 +1,174 @@
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10vw;
+}
+
+.nex {
+  order: 3;
+}
+
+.per {
+  order: 1;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  border: solid var(--main-color);
+  color: var(--text-color2);
+  margin: 0 10px;
+  height: 45vw;
+  order: 2;
+  justify-content: center;
+  background: var(--background_color);
+  transition: all 0.3s ease-in-out;
+}
+
+.pro_title {
+  font-size: 3em;
+  font-family: var(--font-ubuntu);
+  transition: all 0.3s ease-in-out;
+}
+
+.ico {
+  width: 15vw;
+  border-radius: 20px;
+  border: solid var(--text-color2);
+  transition: all 0.3s ease-in-out;
+}
+
+.pro_desc {
+  padding: 10px;
+  font-family: var(--font-ubuntu);
+  font-size: 1.2em;
+  transition: all 0.3s ease-in-out;
+}
+
+.project_link {
+  color: var(--main-color2);
+  cursor: pointer;
+  font-size: 1.8em;
+  font-family: var(--font-fira);
+}
+
+._shape {
+  position: absolute;
+  width: 37vw;
+  z-index: -1;
+  top: 22vw;
+  left: 1vw;
+  transform: rotate(74deg);
+}
+._circle {
+  width: 4vw;
+  position: absolute;
+  top: 24vw;
+  left: 13vw;
+}
+.__shape {
+  position: absolute;
+  width: 31vw;
+  z-index: -1;
+  top: 11vw;
+  left: 66vw;
+  transform: rotate(89deg);
+}
+.__circle {
+  width: 4vw;
+  position: absolute;
+  top: 36vw;
+  left: 88vw;
+}
+@media screen and (max-width: 1220px) {
+  .project {
+    height: 55vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ico {
+    width: 25vw;
+  }
+  .projects {
+    margin: 5vw;
+  }
+  .project {
+    height: 80vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project {
+    height: 110vw;
+  }
+}
+@media screen and (max-width: 750px) {
+  ._shape {
+    width: 49vw;
+    z-index: -1;
+    top: 111vw;
+    left: 5vw;
+    transform: rotate(13deg);
+  }
+  .__shape {
+    top: 48vw;
+    left: 75vw;
+  }
+  .__circle {
+    width: 20vw;
+    top: 226vw;
+    left: 78vw;
+    z-index: -1;
+  }
+  ._circle {
+    width: 16vw;
+    top: 107vw;
+    left: 1vw;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 660px) {
+  .projects {
+    flex-direction: column;
+  }
+  .project {
+    order: 1;
+  }
+  .per {
+    order: 2;
+    flex-direction: row;
+    margin: 20px;
+  }
+  .nex {
+    order: 3;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .project {
+    height: 150vw;
+  }
+  ._shape {
+    left: -9vw;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .project {
+    height: 200vw;
+  }
+  .ico {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project {
+    overflow: auto;
+  }
+}

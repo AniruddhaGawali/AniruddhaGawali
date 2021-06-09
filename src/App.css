@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;700&family=Mate+SC&family=Space+Mono:wght@400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+  --main-color: #4733c5;
+  --main-color2: #ff2a00;
+  --text-color: white;
+  --text-color2: black;
+  --font-fira: 'Fira Sans Condensed', sans-serif;
+  --font-mate: 'Mate SC', serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-ubuntu: 'Ubuntu', sans-serif;
+  --background_color: #fff;
+}
+
+body {
+  transition: all 0.3s ease-in-out;
+}
+
+.fab-container {
+  background: transparent;
+  bottom: 3vh;
+  position: fixed;
+  margin: 1em;
+  right: 2vw;
+  z-index: 5;
+}
+
+.fab-item {
+  background-image: url('https://i.ibb.co/NjB0SZ9/round-dark-mode-black-24dp.png');
+  left: 7vw;
+  top: 4vw;
+}
+
+button {
+  border: solid var(--main-color2);
+  border-radius: 20px;
+  color: var(--main-color2);
+  font-size: 1.3em;
+  font-family: var(--font-ubuntu);
+  transition: 0.5s all;
+  background: transparent;
+  padding: 10px;
+}
+button:hover {
+  border: solid var(--main-color);
+  color: var(--main-color);
+}
+
+@media screen and (max-width: 660px) {
+  .fab-item {
+    background-image: url('https://i.ibb.co/NjB0SZ9/round-dark-mode-black-24dp.png');
+    left: 6vw;
+    top: 11vw;
+  }
+}

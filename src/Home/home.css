@@ -1,0 +1,219 @@
+.main {
+  background-color: var(--main-color);
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+  z-index: 2;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info {
+  margin: 11vw 0 0 10vw;
+  transition: all 0.3s ease-in-out;
+}
+
+.greet {
+  font-family: var(--font-mono);
+  font-weight: 900;
+  font-size: 2em;
+  padding: 0 0 0 10px;
+}
+.info h1 {
+  font-family: var(--font-fira);
+  font-size: 6em;
+  margin: 0;
+}
+
+.info h3 {
+  font-family: var(--font-fira);
+  font-size: 4em;
+  margin: 0;
+}
+
+.bimoji {
+  position: relative;
+  top: 5vw;
+  left: 0vw;
+}
+.forearm {
+  position: relative;
+  top: -103.6px;
+  left: 132.5px;
+}
+.hand {
+  animation: hand_ani 2s infinite;
+}
+.finger {
+  position: relative;
+  animation: fingur_ani 2s infinite;
+}
+.bimojit {
+  display: none;
+}
+.shape {
+  position: absolute;
+  width: 42vw;
+  z-index: 1;
+  top: 14vw;
+  left: -11vw;
+  transform: rotate(127deg);
+}
+
+.circle_shape {
+  position: absolute;
+  width: 6vw;
+  z-index: 1;
+  left: 26vw;
+  top: 21vw;
+  transform: rotate(138deg);
+}
+article {
+  position: relative;
+  z-index: 3;
+  margin: 10vw 13vw 0;
+  font-size: 1.5em;
+  font-family: var(--font-ubuntu);
+  text-align: left;
+  color: var(--text-color2);
+  transition: all 0.3s ease-in-out;
+}
+.social__ {
+  font-size: 2em;
+}
+@media screen and (max-width: 968px) {
+  .main {
+    background-color: var(--main-color);
+    height: 80vh;
+  }
+  .bimoji {
+    width: 25vw;
+    top: 5vw;
+    left: -10vw;
+  }
+  .shape {
+    width: 56vw;
+    top: 10vw;
+    left: -15vw;
+  }
+  .circle_shape {
+    width: 8vw;
+    left: 34vw;
+  }
+}
+@media screen and (max-width: 730px) {
+  .main {
+    /* height: 90vh; */
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .info {
+    margin: 5vw;
+    text-align: center;
+    /* position: absolute; */
+    z-index: 2;
+  }
+  .greet {
+    font-size: 1.5em;
+  }
+  .info h1 {
+    font-size: 4.5em;
+  }
+  .info h3 {
+    font-size: 2em;
+  }
+  .bimoji {
+    width: 35vw;
+    left: -32.5vw;
+  }
+  .shape {
+    width: 70vw;
+    top: 60vw;
+    left: -15vw;
+  }
+  .circle_shape {
+    width: 8vw;
+    left: 46vw;
+    top: 70vw;
+  }
+}
+
+@media screen and (max-width: 403px) {
+  .social__ {
+    font-size: 1.7em;
+  }
+  .body,
+  .hand,
+  .finger {
+    display: none;
+  }
+  .bimojit {
+    display: block;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .main {
+    height: 70vh;
+  }
+  .greet {
+    font-size: 1.5em;
+  }
+  .info h1 {
+    font-size: 4em;
+  }
+  .info h3 {
+    font-size: 2em;
+  }
+  .bimoji {
+    width: 40vw;
+  }
+  .shape {
+    top: 90vw;
+    left: -15vw;
+  }
+  circle_shape {
+    width: 8vw;
+    top: 100vw;
+  }
+}
+
+@keyframes hand_ani {
+  0% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+
+@keyframes fingur_ani {
+  0% {
+    transform: rotate(-20deg);
+    top: -82px;
+    left: -69px;
+  }
+  50% {
+    transform: rotate(17deg);
+    top: -67px;
+    left: -24.2px;
+  }
+  100% {
+    transform: rotate(-20deg);
+    top: -82px;
+    left: -69px;
+  }
+}

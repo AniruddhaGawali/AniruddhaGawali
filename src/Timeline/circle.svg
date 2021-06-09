@@ -1,0 +1,4 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                            <stop id="stop1" stop-color="rgba(255, 39.308, 0, 1)" offset="0%"></stop>                            <stop id="stop2" stop-color="rgba(255, 160.257, 0, 1)" offset="100%"></stop>                        </linearGradient> 
+  <circle cx="50" cy="50" r="50" fill="url(#sw-gradient)"/>
+</svg>

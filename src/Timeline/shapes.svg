@@ -1,0 +1,6 @@
+<svg id="visual" viewBox="0 0 900 900" width="900" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                        
+  <stop id="stop1" stop-color="rgba(255, 39.308, 0, 1)" offset="0%"></stop>               
+  <stop id="stop2" stop-color="rgba(255, 160.257, 0, 1)" offset="100%"></stop>                 
+  </linearGradient>
+<g transform="translate(540.514884391865 486.58152949262563)"><path d="M141.2 -88.7C201.3 22.5 280.8 115.2 260.5 182.8C240.2 250.3 120.1 292.7 -13.1 300.3C-146.4 307.8 -292.7 280.7 -373.9 178C-455.1 75.3 -471.1 -103 -397.9 -221.7C-324.8 -340.5 -162.4 -399.7 -60.9 -364.6C40.6 -329.4 81.2 -199.9 141.2 -88.7" fill="url(#sw-gradient)"></path></g></svg>

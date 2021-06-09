@@ -1,0 +1,24 @@
+.fa {
+  margin: 5px;
+  transition: all 0.15s, color 0.3s;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+  transform: scale(1.3);
+}
+
+.fa-instagram:hover {
+  color: #c333af;
+  transform: scale(1.3);
+}
+
+.fa-twitter:hover {
+  color: skyblue;
+  transform: scale(1.3);
+}
+
+.fa-github:hover {
+  color: var(--text-color2);
+  transform: scale(1.3);
+}

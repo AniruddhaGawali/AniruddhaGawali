@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#footer {
+  top: 0vw;
+  z-index: 0;
+}
+
+.info_ {
+  position: relative;
+  display: flex;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-color);
+  top: 41vw;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-ubuntu);
+  font-size: 1.2em;
+  transition: all 0.3s ease-in-out;
+}
+
+.social {
+  font-size: 2em;
+}
+.help {
+  display: flex;
+}
+.help a {
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0 2px;
+  color: var(--text-color);
+  font-family: var(--font-ubuntu);
+  transition: all 0.3s ease-in-out;
+}
+.help a:hover {
+  color: var(--text-color2);
+}
+
+@media screen and (max-width: 500px) {
+  .info_ {
+    position: inherit;
+  }
+  #footer {
+    display: none;
+  }
+  footer {
+    background-image: linear-gradient(120deg, #ff2700, #ffa000);
+  }
+}
