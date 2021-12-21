@@ -1,0 +1,88 @@
+@media screen and (max-width: 800px) {
+  .intro {
+    margin: 30vh 0 20px 0vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    align-items: center;
+    justify-content: center;
+    margin: 20vw 5vw;
+    text-align: center;
+  }
+  .timeline {
+    margin: 0 5vw 20vw 5vw;
+  }
+  .heading {
+    text-align: center;
+    margin: 0 0 0 0vw;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .card-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro {
+    margin: 200px 0 20px 0vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro-name {
+    font-size: 3.5em;
+  }
+  .sub-intro {
+    font-size: 2.1em;
+  }
+  .container {
+    margin: 20vw 5vw;
+    padding: 0 20px;
+    text-align: center;
+  }
+  footer{
+    flex-direction: column;
+  }
+  footer div{
+    margin-top: 3px 0;
+  }
+}
+@media screen and (max-width: 300px) {
+  .intro {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .intro-name {
+    font-size: 3em;
+  }
+  .sub-intro {
+    font-size: 1.8em;
+  }
+  .top-heading {
+    font-size: 2.5em;
+    font-family: var(--font-200);
+    font-weight: 800;
+  }
+  .container {
+
+    margin: 0vw 2vw;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 950px) {
+  .about-me-context {
+    flex-direction: column;
+    padding: 30px 0 30px 0;
+  }
+  .content-right img {
+    padding: 0 0px 30px 0px;
+  }
+}
