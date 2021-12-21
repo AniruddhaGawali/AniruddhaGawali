@@ -32,6 +32,7 @@ function theme_changer() {
 function remove_nav() {
   menubtn.classList.toggle("nav-active");
   document.querySelector(".nav").classList.toggle("active");
+  document.querySelector(".header").classList.toggle("header-nav-active")
 }
 
 // func to makesite to got top 
