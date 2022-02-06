@@ -1,22 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Secular+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500;1,700&display=swap");
-
-:root {
-  --primary-color-0: #fff;
-  --primary-color-100: #f6ebff;
-  --primary-color-200: #b4a5e4;
-  --primary-color-300: #988bbf;
-  --primary-color-400: #5e4fbd;
-  --primary-color-500: #494454;
-  --primary-color-600: #5f5f5f;
-  --primary-color-700: #525151;
-  --primary-color-800: #181a1b;
-  --secondary-color-100: #00a586;
-
-  --font-100: "Ubuntu", sans-serif;
-  --font-200: "Secular One", sans-serif;
-  --font-300: "Dancing Script", cursive;
-}
-
 .header {
   position: fixed;
   top: 0;
@@ -44,6 +25,7 @@
 .logo {
   width: 50px;
   margin: 0 0 0 20px;
+  cursor: pointer;
 }
 
 .svg {
@@ -80,6 +62,7 @@
   position: relative;
   width: 45px;
   height: 45px;
+  cursor: pointer;
 }
 .nav-toggle-btn {
   position: absolute;
