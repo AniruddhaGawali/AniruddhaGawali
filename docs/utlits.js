@@ -49,6 +49,11 @@ function open_link(link) {
   parent.open(link);
 }
 
+function back_top_btn(){
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
 // auto set theme according to used browser theme
 const userPrefersDark =
   window.matchMedia &&
