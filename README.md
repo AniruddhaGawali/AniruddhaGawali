@@ -5,26 +5,15 @@
 
 
 
-[![Gmail](https://img.shields.io/static/v1?style=flat-square&label=Gmail&message=aniruddhagawali03&color=db3c30&logo=gmail&logoColor=white)](https://twitter.com/AniruddhaAKG)
-[![Website](https://img.shields.io/static/v1?style=flat-square&label=Webfolio&message=AKGSite&color=slateblue&&logoColor=white)](https://twitter.com/AniruddhaAKG)
-[![Linkedin](https://img.shields.io/static/v1?style=flat-square&label=Linkedin&message=AniruddhaGawali&color=0961b9&logo=Linkedin&logoColor=white)](https://twitter.com/AniruddhaAKG)
+[![Gmail](https://img.shields.io/static/v1?style=flat-square&label=Gmail&message=aniruddhagawali03&color=db3c30&logo=gmail&logoColor=white)](mailto:aniruddhagawali03@gmail.com)
+[![Website](https://img.shields.io/static/v1?style=flat-square&label=Webfolio&message=AKGSite&color=slateblue&&logoColor=white)](https://aniruddhagawali.github.io/AniruddhaGawali/)
+[![Linkedin](https://img.shields.io/static/v1?style=flat-square&label=Linkedin&message=AniruddhaGawali&color=0961b9&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/aniruddha-gawali-617804230/)
 [![Twitter](https://img.shields.io/static/v1?style=flat-square&label=Twitter&message=AniruddhaAKG&color=1d98e5&logo=twitter&logoColor=white)](https://twitter.com/AniruddhaAKG)
-[![Instagram](https://img.shields.io/static/v1?style=flat-square&label=Instagram&message=AniruddhaGawali&color=cf3b83&logo=Instagram&logoColor=white)](https://twitter.com/AniruddhaAKG)
-
-
+[![Instagram](https://img.shields.io/static/v1?style=flat-square&label=Instagram&message=@aniruddha.gawali&color=cf3b83&logo=Instagram&logoColor=white)](https://www.instagram.com/aniruddha.gawali/)
 
 
 **Hi I am Aniruddha Gawali you can call me AKG in short. I love coding and Computers This is my github. I have crated lots of project you can exploer them on my website. My fravotie language is python so I have made lots of of projects on it like AI, Tkinter application and many more**
 
 - ## Languages I Learn
 
-  
-  [![HTML](https://img.shields.io/badge/-HTML-black?style=flat-square&logo=html5&logoColor=color)](https://en.wikipedia.org/wiki/HTML)
-  [![css](https://img.shields.io/badge/-CSS-black?style=flat-square&logo=CSS3&logoColor=blue)](https://en.wikipedia.org/wiki/CSS)
-  [![javascript](https://img.shields.io/badge/-Javascript-black?style=flat-square&logo=Javascript&logoColor=color)](https://en.wikipedia.org/wiki/JavaScript)
-  [![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react&logoColor=color)](https://en.wikipedia.org/wiki/C%2B%2B)
-  [![Angular](https://img.shields.io/badge/-Angular-black?style=flat-square&logo=angular&logoColor=red)](https://en.wikipedia.org/wiki/C%2B%2B)
-  [![python](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=color)](https://en.wikipedia.org/wiki/Python) 
-  [![C++](https://img.shields.io/badge/-C++-black?style=flat-square&logo=c%2b%2b&logoColor=skyblue)](https://en.wikipedia.org/wiki/C%2B%2B)
-  [![github](https://img.shields.io/badge/-Github-black?style=flat-square&logo=github&logoColor=color)](https://en.wikipedia.org/wiki/GitHub)
-  [![Bash](https://img.shields.io/badge/-Bash-black?style=flat-square&logo=git&logoColor=color)](https://en.wikipedia.org/wiki/Git)
+  ![C++](https://img.shields.io/static/v1?style=flat-square&label=C%2b%2b&message=2022&color=292929&logo=C%2b%2b&logoColor=darkblue&labelcolor=darkblue)  ![HTML](https://img.shields.io/static/v1?style=flat-square&label=HTML&message=2021&color=292929&logo=html5&logoColor=orange)  ![CSS](https://img.shields.io/static/v1?style=flat-square&label=CSS&message=2021&color=292929&logo=css3&logoColor=skyblue)  ![JS](https://img.shields.io/static/v1?style=flat-square&label=Javascript&message=2021&color=292929&logo=Javascript)  ![React](https://img.shields.io/static/v1?style=flat-square&label=React&message=2021&color=292929&logo=React)  ![Angular](https://img.shields.io/static/v1?style=flat-square&label=Angular&message=2021&color=292929&logo=Angular&logoColor=red)  ![Python](https://img.shields.io/static/v1?style=flat-square&label=Python&message=2020&color=292929&logo=Python)![Github](https://img.shields.io/static/v1?style=flat-square&label=Github&message=2019&color=292929&logo=Github)  ![Linux](https://img.shields.io/static/v1?style=flat-square&label=Linux&message=2019&color=292929&logo=Linux)
