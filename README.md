@@ -1,5 +1,5 @@
 
-# Hi, I'm AniruddhaGawali (AKG) <a href="https://www.gautamkrishnar.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"></a>
+# Hi, I'm AniruddhaGawali (AKG) <a href="https://aniruddhagawali.github.io/AniruddhaGawali/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"></a>
 
 <img align='right' src='https://i.ibb.co/QkWYsXM/Pics-Art-05-30-05-41-22.png' width="200">
 
