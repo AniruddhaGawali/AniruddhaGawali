@@ -12,7 +12,7 @@
 [![Instagram](https://img.shields.io/static/v1?style=flat-square&label=Instagram&message=@aniruddha.gawali&color=cf3b83&logo=Instagram&logoColor=white)](https://www.instagram.com/aniruddha.gawali/)
 
 
-**Hi I am Aniruddha Gawali you can call me AKG in short. I love coding and Computers This is my github. I have crated lots of project you can exploer them on my website. My fravotie language is python so I have made lots of of projects on it like AI, Tkinter application and many more**
+**Hi I am Aniruddha Gawali you can call me AKG in short. I love coding and Computers This is my github. I have crated lots of project you can exploer them on my website. My favorite language is python so I have made lots of of projects on it like AI, Tkinter application and many more**
 
 - ## Languages I Learn
 
