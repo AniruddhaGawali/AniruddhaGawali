@@ -16,7 +16,6 @@ function theme_changer() {
   document
     .querySelector(".toggle-btn-switch")
     .classList.toggle("toggle-btn-switch-change");
-  console.log("hi");
   if (theme === false) {
     theme = true;
     document.documentElement.style.setProperty("--primary-color-800", "#fff");

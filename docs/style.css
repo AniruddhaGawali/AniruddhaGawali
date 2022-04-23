@@ -13,12 +13,12 @@
   transition: 0.5s ease-in-out;
 }
 
-.header-nav-active{
+.header-nav-active {
   background: var(--primary-color-200);
   box-shadow: 0px 0px 0px;
 }
 
-.header-nav-active .svg{
+.header-nav-active .svg {
   fill: var(--primary-color-400);
 }
 
@@ -31,6 +31,12 @@
 .svg {
   fill: var(--primary-color-800);
   transition: 0.3s linear;
+  border-radius: 20px;
+}
+.svg_logo {
+  fill: var(--primary-color-800);
+  transition: 0.3s linear;
+  border-radius: 20px;
 }
 .menu {
   position: relative;
@@ -258,68 +264,50 @@
 }
 .card {
   position: relative;
-  width: 250px;
-  height: 250px;
-  background: var(--primary-color-0);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background: var(--primary-color-400);
   border-radius: 20px;
   text-align: center;
   justify-content: center;
-}
-.card svg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  border-radius: 20px;
-  z-index: 5;
-  background-color: var(--primary-color-400);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition: all 0.3s linear;
+  align-items: center;
+  overflow: hidden;
+  padding: 10px 0 0 0;
 }
 .card:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.1);
 }
-.card:hover svg {
-  width: 15%;
-  height: 15%;
-  border-radius: 5px;
-  top: 10px;
-  left: 15px;
-  background-color: var(--secondary-color-100);
-}
-
-.card h1 {
+.card::before {
+  content: "";
   position: absolute;
-  font-size: 2em;
-  text-align: left;
-  right: 10px;
   top: 0;
-  line-height: 1;
-  color: var(--secondary-color-100);
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(225, 225, 225, 0.1),
+    transparent
+  );
+  transition: 0.65s;
 }
-.card p{
-  position: absolute;
-  top: 40%;
-  padding: 10px;
 
+.card:hover::before {
+  left: 100%;
 }
-.links {
-  position: absolute;
-  display: flex;
-  bottom: 10px;
-  left: 51px;
-  height: 30px;
-  width: 60%;
-  background: var(--secondary-color-100);
-  border-radius: 20px;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 1.4em;
-  color: var(--primary-color-0);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.card h1 {
+  font-size: 2em;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: underline;
 }
-.links i {
-  color: var(--primary-color-800);
+.card p {
+  padding: 10px;
+}
+
+.proj_icon {
+  /* height: 5em; */
 }

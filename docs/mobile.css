@@ -50,6 +50,9 @@
   }
   footer div{
     margin-top: 3px 0;
+  }.card{
+    width: 250px;
+
   }
 }
 @media screen and (max-width: 300px) {
