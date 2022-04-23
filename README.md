@@ -22,7 +22,7 @@ Hi I am Aniruddha Gawali you can call me AKG in short. I love coding and Compute
   <img src="https://github-readme-stats.vercel.app/api?username=AniruddhaGawali&&show_icons=true&title_color=6a5acd&icon_color=6a5acd&text_color=daf7dc&bg_color=151515">
   
   ## Best Projects
-    <a href="https://github.com/AniruddhaGawali/Password-Manager">
+ <a href="https://github.com/AniruddhaGawali/Password-Manager">
       <img align="center" style="padding-left: 20px" src="https://github-readme-stats.vercel.app/api/pin/?username=AniruddhaGawali&repo=Password-Manager&title_color=6a5acd&icon_color=6a5acd&text_color=9f9f9f&bg_color=151515" />
     </a>
     <a href="https://github.com/AniruddhaGawali/Hand_Cricket">
