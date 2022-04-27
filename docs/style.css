@@ -236,14 +236,13 @@
   top: 0;
   left: 0;
   transform: translate(calc(50vw - 50%), calc(50vh - 50%));
-  background: #fff;
   color: var(--primary-color-800);
   width: 50%;
   height: 50%;
   border-radius: 20px;
   background-color: rgb(152, 139, 191, 0.3);
   border-radius: 20px;
-  padding: 20px 40px;
+  padding: 20px 20px;
   border: 3px solid var(--primary-color-400);
   backdrop-filter: blur(3px);
   transition: all 0.3s;
