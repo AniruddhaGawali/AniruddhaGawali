@@ -11,8 +11,7 @@
 [![Twitter](https://img.shields.io/static/v1?style=flat-square&label=Twitter&message=AniruddhaAKG&color=1d98e5&logo=twitter&logoColor=white)](https://twitter.com/AniruddhaAKG)
 [![Instagram](https://img.shields.io/static/v1?style=flat-square&label=Instagram&message=@aniruddha.gawali&color=cf3b83&logo=Instagram&logoColor=white)](https://www.instagram.com/aniruddha.gawali/)
 
-
-Hi I am Aniruddha Gawali you can call me AKG in short. I love coding and Computers This is my github. I have crated lots of project you can exploer them on my website. My favorite language is python so I have made lots of of projects on it like AI, Tkinter application and many more
+Hello my name is Aniruddha Gawali I am a undergrad student majors in computer science. I oved computer from since childhood, I learn ethical hacking in my 10th grade, I get introduce by proggraming in 12 grade and I learn C\C++, Python, HTML,CSS,Js and some framework like Angular, ReactJs and TKinter(in python). I have work on some projects based on python and web-devlopment you check out them on my repo section. I loved to build websites and apps for that I am planing to learn Futter and React Native. I am open to colab on projects some you can contact me by any medium given about.
 
 - ## Languages I Learn
 
