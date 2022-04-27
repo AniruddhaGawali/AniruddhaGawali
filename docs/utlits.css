@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Secular+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500;1,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
 :root {
   --primary-color-0: #fff;
   --primary-color-100: #f6ebff;
@@ -12,7 +12,8 @@
   --primary-color-800: #181a1b;
   --secondary-color-100: #00a586;
 
-  --font-100: "Ubuntu", sans-serif;
+  --font-0: 'Poppins', sans-serif;
+  --font-100: 'Poppins', sans-serif;
   --font-200: "Secular One", sans-serif;
   --font-300: "Dancing Script", cursive;
 }
@@ -27,7 +28,7 @@ body {
   color: var(--primary-color-800);
   background-color: var(--primary-color-0);
   transition: 0.3s ease-in-out;
-  font-family: var(--font-100);
+  font-family: var(--font-0);
   font-weight: 400;
   line-height: 1.6;
 }
@@ -63,7 +64,7 @@ body {
 .fab:hover::before,.fas:hover::before{
   left: 100%;
 } */
-.social-media {
+.social-media{
   display:flex;
   font-size: 30px;
   margin: 10px 3px;
@@ -77,7 +78,7 @@ body {
   justify-content:left;
   /* text-align: center; */
 }
-.social-media i{
+.social-media i,.fa-brands{
   color: var(--primary-color-300);
 }
 .fa-facebook-square:hover {
@@ -91,6 +92,15 @@ body {
 }
 .fa-github-square:hover {
   color: #383838;
+}
+.fa-square-envelope:hover{
+  color: #db3c30;
+}
+.fa-pen-to-square:hover{
+  color: #00a586;
+}
+.fa-square-font-awesome:hover{
+  color: #136ebd;
 }
 
 .toggle-btn {
@@ -220,10 +230,11 @@ body {
 
 .container {
   margin: 20vw 13vw;
-  background-color: rgb(152, 139, 191, 0.5);
+  background-color: rgba(152, 139, 191, 0.5);
   border-radius: 20px;
   padding: 20px 40px;
   border: 3px solid var(--primary-color-400);
+  /* backdrop-filter: blur(2px); */
 }
 
 footer {

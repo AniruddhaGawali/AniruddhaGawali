@@ -53,6 +53,19 @@ function back_top_btn(){
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
+const open = document.getElementById('open');
+const close = document.getElementById('close');
+const contact_menu = document.querySelector('.contact_model');
+
+open.addEventListener('click', ()=>{
+  contact_menu.classList.add('open')
+})
+close.addEventListener('click', ()=>{
+  contact_menu.classList.remove('open')
+})
+
+
 // auto set theme according to used browser theme
 const userPrefersDark =
   window.matchMedia &&

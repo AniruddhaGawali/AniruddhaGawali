@@ -196,14 +196,23 @@ c-7 -15 -14 -21 -16 -15 -5 16 5 41 17 41 7 0 6 -10 -1 -26z m-1898 -27 c0 -2
         </section>
         <section class="content-left">
           <p>
-            This is my personal website/portfolio. I am from India and I love
-            Coding and Computers. I have creates lots of project you can explore
-            them on my website. My favorite language is python so I have made
-            lots of of projects on it like AI, Tkinter application and all this
-            stuff are been self learned by me, from youtube, internet and
-            practice.
+            Hello my name is Aniruddha Gawali I am a undergrad student majors in computer science. I oved computer from since childhood, I learn ethical hacking in my 10th grade, I get introduce by proggraming in 12 grade and I learn C\C++, Python, HTML,CSS,Js and some framework like Angular, ReactJs and TKinter(in python). I have work on some projects based on python and web-devlopment you check out them on my repo section. I loved to build websites and apps for that I am planing to learn Futter and React Native. I am open to colab on projects some you can contact me by any medium given about.
           </p>
-          <button class="btn" style="margin-top: 20px;" onclick="open_link('mailto:aniruddhagawali03@gmail.com')">Contact Me</button>
+          <button class="btn" style="margin-top: 20px;" id="open">Contact Me</button>
+          <div class="contact_model">
+          <fieldset class="contact_menu">
+            <legend><span class="top-heading">Contact</span>
+              <i class="fa-solid fa-xmark" id="close"></i></legend>
+            <section class="social-media">
+              <i class="fab fa-facebook-square" title="Facebook" onclick="open_link('https://www.instagram.com/aniruddha.gawali')"></i>
+              <i class="fab fa-instagram-square" title="Instagram" onclick="open_link('https://www.instagram.com/aniruddha.gawali')"></i>
+              <i class="fab fa-twitter-square" title="Twitter" onclick="open_link('https://twitter.com/AniruddhaAKG')"></i>
+              <i class="fab fa-github-square" title="Github" onclick="open_link('https://github.com/AniruddhaGawali')"></i>
+              <i class="fab fa-solid fa-square-envelope" onclick="open_link('mailto:aniruddhagawali03@gmail.com')"></i>
+              <i class="fab fa-solid fa-pen-to-square" onclick="open_link('https://forms.gle/mDhUgL9AemseGfDR6')"></i>
+            </section>
+          </fieldset>
+        </div>
         </section>
       </div>
 
@@ -385,7 +394,7 @@ c-7 -15 -14 -21 -16 -15 -5 16 5 41 17 41 7 0 6 -10 -1 -26z m-1898 -27 c0 -2
       <div><h3>Design by Aniruddha</h3></div>
       <div>
         <p>Icon by</p>
-        <p onclick="open_link('https://fontawesome.com/')" title="fontawesome" style="color: var(--primary-color-800); cursor: pointer;"> Font Awesome</p>
+        <i class="fab fa-brands fa-square-font-awesome" style="font-size: 2em; text-align: center;" onclick="open_link('https://fontawesome.com/')"></i>
       </div>
       <div>
         <p>Social media</p>
@@ -394,10 +403,10 @@ c-7 -15 -14 -21 -16 -15 -5 16 5 41 17 41 7 0 6 -10 -1 -26z m-1898 -27 c0 -2
           <i class="fab fa-instagram-square" title="Instagram" onclick="open_link('https://www.instagram.com/aniruddha.gawali')"></i>
           <i class="fab fa-twitter-square" title="Twitter" onclick="open_link('https://twitter.com/AniruddhaAKG')"></i>
           <i class="fab fa-github-square" title="Github" onclick="open_link('https://github.com/AniruddhaGawali')"></i>
-          <a onclick="open_link('https://forms.gle/mDhUgL9AemseGfDR6')" style="font-size: .6em;
+          <!-- <a onclick="open_link('https://forms.gle/mDhUgL9AemseGfDR6')" style="font-size: .6em;
           color: var(--primary-color-800);
           margin-left: 5px;
-          font-family: var(--font-200);">Feedback</a>
+          font-family: var(--font-200);">Feedback</a> -->
           
         </section>
       </div>
@@ -406,10 +415,6 @@ c-7 -15 -14 -21 -16 -15 -5 16 5 41 17 41 7 0 6 -10 -1 -26z m-1898 -27 c0 -2
     </footer>
   
     <!-- --------------------------------------------------SCRIPT------------------------------------------------------- -->
-    <script
-      src="https://kit.fontawesome.com/4666c3fa3b.js"
-      crossorigin="anonymous"
-    ></script>
     <script src="./utlits.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script type="module">
@@ -440,7 +445,8 @@ c-7 -15 -14 -21 -16 -15 -5 16 5 41 17 41 7 0 6 -10 -1 -26z m-1898 -27 c0 -2
           prevEl: ".swiper-button-prev",
         },
       });
-    </script>
+      </script>
+<script src="https://kit.fontawesome.com/6026214fa8.js" crossorigin="anonymous"></script>
     <!-- -----------------------------------------------------STYLE---------------------------------------------------- -->
     <style>
       .swiper {

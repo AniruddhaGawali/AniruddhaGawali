@@ -18,6 +18,10 @@
     text-align: center;
     margin: 0 0 0 0vw;
   }
+  .contact_menu legend{
+    padding: 0 50px 0 0px;
+  }
+  
 }
 
 @media screen and (max-width: 715px) {
