@@ -81,8 +81,8 @@ body {
 .social-media i,.fa-brands{
   color: var(--primary-color-300);
 }
-.fa-facebook-square:hover {
-  color: #3b5998;
+.fa-linkedin:hover {
+  color:#0b5eba;
 }
 .fa-instagram-square:hover {
   color: #bc2a8d;
