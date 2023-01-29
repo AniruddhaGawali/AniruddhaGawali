@@ -18,8 +18,10 @@ Hi, my name is Aniruddha Gawali and I am an undergraduate student majoring in co
 ![Python](https://img.shields.io/static/v1?style=flat-square&label=Python&message=2020&color=292929&logo=Python)![C++](https://img.shields.io/static/v1?style=flat-square&label=C%2b%2b/C&message=2022&color=292929&logo=C%2b%2b&logoColor=darkblue&labelcolor=blue)  ![HTML](https://img.shields.io/static/v1?style=flat-square&label=HTML&message=2021&color=292929&logo=html5&logoColor=orange)  ![CSS](https://img.shields.io/static/v1?style=flat-square&label=CSS&message=2021&color=292929&logo=css3&logoColor=skyblue)  ![JS](https://img.shields.io/static/v1?style=flat-square&label=Javascript&message=2021&color=292929&logo=Javascript)  ![React](https://img.shields.io/static/v1?style=flat-square&label=React&message=2021&color=292929&logo=React)  ![Angular](https://img.shields.io/static/v1?style=flat-square&label=Angular&message=2021&color=292929&logo=Angular&logoColor=red) ![Node js](https://img.shields.io/static/v1?style=flat-square&label=NodeJs&message=2021&color=292929&logo=NodeJs&logoColor=green)![Mongo DB](https://img.shields.io/static/v1?style=flat-square&label=Mongodb&message=2022&color=292929&logo=Mongodb&logoColor=green) ![Github](https://img.shields.io/static/v1?style=flat-square&label=Github&message=2019&color=292929&logo=Github)  ![Linux](https://img.shields.io/static/v1?style=flat-square&label=Linux&message=2019&color=292929&logo=Linux)
   
   ## Github Stats
-  <img src="https://github-readme-stats.vercel.app/api?username=AniruddhaGawali&&show_icons=true&title_color=808080&icon_color=808080&text_color=a8a8a8&bg_color=151515">
+  <img src="https://github-readme-stats.vercel.app/api?username=AniruddhaGawali&&show_icons=true&title_color=a371f7&icon_color=fff&text_color=a8a8a8&bg_color=151515">
   
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AniruddhaGawali&theme=dark&date_format=M%20j%5B%2C%20Y%5D&sideLabels=808080&currStreakLabel=808080)](https://git.io/streak-stats)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AniruddhaGawali&theme=dark&show_icons=true&layout=compact)
+<div style="display:flex; ">  
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=AniruddhaGawali&theme=dark&date_format=M%20j%5B%2C%20Y%5D&sideLabels=808080&currStreakLabel=808080" alt="My Stats">
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AniruddhaGawali&theme=dark&show_icons=true&layout=compact" alt="Most Used Language">
+</div>
