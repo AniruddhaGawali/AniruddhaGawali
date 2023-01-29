@@ -22,4 +22,4 @@ Hi, my name is Aniruddha Gawali and I am an undergraduate student majoring in co
   
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AniruddhaGawali&theme=dark&date_format=M%20j%5B%2C%20Y%5D&sideLabels=808080&currStreakLabel=808080)](https://git.io/streak-stats)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AniruddhaGawali&theme=dracula&show_icons=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AniruddhaGawali&theme=dark&show_icons=true&layout=compact)
