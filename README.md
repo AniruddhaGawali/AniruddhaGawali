@@ -11,7 +11,9 @@
 [![Twitter](https://img.shields.io/static/v1?style=flat-square&label=Twitter&message=AniruddhaAKG&color=1d98e5&logo=twitter&logoColor=white)](https://twitter.com/AniruddhaAKG)
 [![Instagram](https://img.shields.io/static/v1?style=flat-square&label=Instagram&message=@aniruddha.gawali&color=cf3b83&logo=Instagram&logoColor=white)](https://www.instagram.com/aniruddha.gawali/)
 
-Hi, my name is Aniruddha Gawali and I am an undergraduate student majoring in computer science. I have loved computers since childhood and learned ethical hacking in 10th grade. I was introduced to programming in 12th grade and have learned C/C++, Python, HTML, CSS, JS, and various frameworks such as Angular, ReactJS, and TKinter. I have worked on Python and web development projects and am interested in building websites and apps with Flutter and React Native. In my free time, I enjoy playing chess and football. I am open to collaborating on projects and can be contacted through various mediums.
+Hello, I'm Aniruddha Gawali, an undergraduate student with a passion for computer science. My fascination with computers began in childhood, and by 10th grade, I was already delving into ethical hacking. It was during my 12th-grade years that I was introduced to the world of programming, and since then, I've honed my skills in languages like C/C++, Python, HTML, CSS, and JavaScript. I've also ventured into various frameworks, including Angular, ReactJS, and TKinter.
+
+My journey has led me to work on exciting Python and web development projects. Currently, I'm keen on expanding my horizons by delving into mobile app development using Flutter and React Native. Beyond my academic pursuits, I find enjoyment in both chess and football during my free time. If you're interested in collaborating on projects or simply want to get in touch, feel free to reach out through various communication channels.
 
 - ## Languages I Learn
 
