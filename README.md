@@ -25,3 +25,6 @@ My journey has led me to work on exciting Python and web development projects. C
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AniruddhaGawali&theme=discord-old-blurple&border_radius=6&date_format=j%20M%5B%20Y%5D&card_width=600)](https://git.io/streak-stats)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AniruddhaGawali&layout=donut&show_icons=true&theme=discord_old_blurple)
+
+## Badges
+[![An image of @aniruddhagawali's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/aniruddhagawali)](https://holopin.io/@aniruddhagawali)
