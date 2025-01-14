@@ -5,7 +5,7 @@
 
 
 
-[![Gmail](https://img.shields.io/static/v1?style=flat-square&label=Gmail&message=aniruddhagawali03&color=db3c30&logo=gmail&logoColor=white)](mailto:aniruddhagawali03@gmail.com)
+[![Gmail](https://img.shields.io/static/v1?style=flat-square&label=Gmail&message=aniruddhagawali05&color=db3c30&logo=gmail&logoColor=white)](mailto:aniruddhagawali05@gmail.com)
 [![Website](https://img.shields.io/static/v1?style=flat-square&label=Webfolio&message=AKGSite&color=slateblue&&logoColor=white)](https://aniruddhagawali.vercel.app/)
 [![Linkedin](https://img.shields.io/static/v1?style=flat-square&label=Linkedin&message=AniruddhaGawali&color=0961b9&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/aniruddha-gawali-617804230/)
 [![Twitter](https://img.shields.io/static/v1?style=flat-square&label=Twitter&message=AniruddhaAKG&color=1d98e5&logo=twitter&logoColor=white)](https://twitter.com/AniruddhaAKG)
